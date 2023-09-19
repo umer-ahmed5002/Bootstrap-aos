@@ -1,0 +1,354 @@
+.background{
+    background: linear-gradient(rgba(27, 47, 69, 0.6),rgba(27, 47, 69, 0.6)), url('./baners/hero-bg.jpg');
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 120px 0;
+}
+.navbar-position{
+    background-color: rgba(0, 0, 0, 0.534);
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    
+    
+}
+
+
+
+@media only screen and (min-width: 992px) {
+    .background::after{
+        position: absolute;
+        content: "";
+        width: 40%;
+        background-color:#29486a;;
+        top: 0;
+        bottom: 0;
+    }
+}
+.heading{
+    font-size: 45px;
+    font-weight: 700;
+    color: white;
+}
+.paragraf{
+    color: white;
+    font-size: 15px;
+    border-left: 2px solid rgb(86, 102, 184);
+    padding-left: 20px;
+}
+.button{
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 45px;
+    background-color: rgb(126, 195, 209);
+    color: white;
+}
+.button:hover{
+    color: white;
+    background-color:rgb(83, 141, 152) ;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+
+.play-button{
+    font-size: 40px;
+    color:rgb(126, 195, 209) ;
+    
+}
+.video-icon{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+.watch{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.choose-us{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.why{
+    font-size: 30px;
+    font-weight: 600;
+}
+.why::after{
+    content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: rgb(47, 47, 160);
+  margin: 0 15px 10px 0;
+  margin-left: 86px;
+  margin-top: 10px;
+}
+.featurette-image{
+    width: 100%;
+}
+.navbar-nav{
+    gap: 20px;
+    font-weight: 600;
+}
+.whys::after{
+    content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: rgb(47, 47, 160);
+  margin: 0 15px 10px 0;
+  margin-left:60px;
+  margin-top: 10px;
+}
+.whys{
+    font-size: 30px;
+    font-weight: 600;
+}
+.bag{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(45, 45, 45);
+}
+.icons{
+    margin-top: 6px;
+    margin-right: 16px;
+    font-size: 30px;
+    color: rgb(251, 165, 6);
+}
+.yellow{
+    margin-top: -10px;
+    font-weight: 400;
+    color: rgb(83, 82, 82);
+}
+.icons-check{
+    margin-top: 6px;
+    margin-right: 16px;
+    font-size: 30px;
+    color:green;
+}
+.icons-signal{
+    margin-top: 6px;
+    margin-right: 16px;
+    font-size: 30px;
+    color:purple;
+}
+.bag:hover{
+    color: rgb(73, 73, 119);
+}
+.briefcase{
+    cursor: pointer;
+}
+
+.icons-bino{
+    margin-top: 6px;
+    margin-right: 16px;
+    font-size: 30px;
+    color:rgb(5, 183, 183);
+}
+.icons-sun{
+    margin-top: 6px;
+    margin-right: 16px;
+    font-size: 30px;
+    color:yellow;
+}
+.icons-calender{
+    margin-top: 6px;
+    margin-right: 16px;
+    font-size: 30px;
+    color:blue;
+}
+.background2{
+    background: linear-gradient(rgba(7, 43, 85, 0.864),rgba(7, 43, 85, 0.716)), url('./baners/background2.jpg');
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+.perag{
+    margin-top: 30px;
+    color: white;
+}
+.pera{
+    margin-top: -15px;
+    color: white;
+}
+.button-call{
+    padding: 10px 35px;
+    border-radius: 30px;
+}
+
+.powerful{
+    font-size: 32px;
+    font-weight: 700;
+}
+.powerfully{
+    font-size: 32px;
+    font-weight: 700;
+}
+.picher{
+    width: 100%;
+}
+.box{
+    display: flex;
+}
+.days{
+    margin-right: 5px;
+    color: rgb(109, 202, 202);
+}
+.card-pera{
+    font-size: 18px;
+    font-weight: 700;
+}
+.card-pera:hover{
+    color: rgb(109, 202, 202);
+    cursor: pointer;
+}
+.box2{
+    display: flex;
+}
+.icon-aewro{
+    margin-top: 5px;
+    margin-left: 10px;
+    color: rgb(109, 202, 202);
+}
+.read{
+    color: rgb(109, 202, 202);
+}
+
+
+
+
+.footer{
+    margin-top: 100px;
+    background-color: rgb(233, 239, 247);
+    height: 100%;
+    padding-bottom: 20px;
+}
+.size{
+    font-weight: 700;
+    color: #29486a;
+    font-size: 15px;
+}
+.sizer{
+    font-weight: 700;
+    color: #29486a;
+    font-size: 15px;
+}
+.liter{
+    list-style: none;
+    color: #56b8e6;
+    cursor: pointer;
+    
+}
+.liter:hover{
+    
+    text-decoration: none;
+}
+.logo{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+}
+.logo:hover{
+    text-decoration: none;
+    color: rgb(133, 131, 130);
+}
+.fa-brands{
+    color:white;
+    font-size: 20px;
+    /* border: 1px solid rgb(133, 131, 130); */
+    padding: 7px;
+    border-radius: 20px;
+    background-color: #56b8e6;
+}
+
+.cart{
+    display: block;
+    justify-content: flex-end;
+    
+}
+.lite{
+    list-style: none;
+    color: #29486a;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 15px;
+}
+.lite:hover{
+    color: #56b8e6;
+    text-decoration: none;
+}
+.store{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+.stor{
+    margin-top: 5px;
+    font-size: 20px;
+    color: #ffbb2c;
+}
+.easy{
+    font-size: 18px;
+}
+.cala{
+    margin-top: 5px;
+    font-size: 20px;
+    color: #e80368;
+}
+.data{
+    margin-top: 5px;
+    font-size: 20px;
+    color: #47aeff;
+}
+.file{
+    margin-top: 5px;
+    font-size: 20px;
+    color: aqua;
+}
+.iphone{
+    width: 100%;
+    position: absolute;
+    right: 0px;
+    z-index: 1;
+}
+.phone-back{
+    background-color: #47aeff;
+    width: 100%;
+    height: 400px;
+}
+.detail{
+    margin-top: 80px;
+    padding: 120px 0;
+    background-color: #f7f9fc;
+}
+.labore{
+    font-size: 35px;
+    font-weight: 700;
+}
+.round{
+    width: 180px;
+    height: 45px;
+    border-radius: 30px;
+    
+}

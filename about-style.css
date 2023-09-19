@@ -1,0 +1,93 @@
+.background-about{
+    background: linear-gradient(rgba(27, 47, 69, 0.6),rgba(27, 47, 69, 0.6)), url('./about-baners/about-header.jpg');
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-head{
+    font-size: 60px;
+    color: white;
+    font-weight: 600;
+}
+.box5{
+    display: flex;
+}
+.hom{
+    color: rgb(215, 209, 209);
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+.slash{
+    margin: 0px 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+.abo{
+    font-size:18px ;
+    font-weight: 600;
+    color: rgb(95, 180, 183);
+}
+.about-card{
+    width: 100%;
+}
+.volu{
+    font-size: 35px;
+    font-weight: 600;
+}
+.ullam{
+    font-weight: 400;
+    color:rgb(58, 63, 100) ;
+
+}
+.check{
+    height: 18px;
+    background-color: #56b8e6;
+   padding: 5px;
+    color: white;
+    border-radius: 25px;
+    font-size: 10px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.box6{
+    display: flex;
+}
+.team::after{
+    content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: rgb(47, 47, 160);
+  margin: 0 15px 10px 0;
+  margin-left:40px;
+  margin-top: 10px;
+}
+.team{
+    font-size: 30px;
+    font-weight: 600;
+}
+.about-card2{
+    width: 100%;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.nam{
+    font-size: 18px;
+    font-weight: 700;
+    
+}
